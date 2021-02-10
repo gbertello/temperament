@@ -23,10 +23,10 @@ y = np.sin(float(440) * 2 * np.pi * t)
 y += np.sin(float(440 * 2**(5/12)) * 2 * np.pi * t)
 y = y/np.amax(y)
 
-wavfile.write('quarte.wav', rate, y)
+wavfile.write('quarte juste.wav', rate, y)
 
 y = np.sin(float(440) * 2 * np.pi * t)
 y += np.sin(float(440 * 2**(7/12)) * 2 * np.pi * t)
 y = y/np.amax(y)
 
-wavfile.write('quinte.wav', rate, y)
+wavfile.write('quinte juste.wav', rate, y)
